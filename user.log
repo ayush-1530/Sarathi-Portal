@@ -1,0 +1,59 @@
+2025-03-12 09:20:34,631 82 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['D1KaNA9xJSuie7tOkACThQN1pdq0bp0yXsLtVYE5p50yvhlIq6PhnfhTts2cAi9P']), ('user_id', ['15'])])
+2025-03-12 09:20:34,632 86 UserId: 15, OTP: 655895
+2025-03-12 09:20:47,432 97 API: 'verify_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['D1KaNA9xJSuie7tOkACThQN1pdq0bp0yXsLtVYE5p50yvhlIq6PhnfhTts2cAi9P']), ('user_id', ['15']), ('enteredotp', ['655895'])])
+2025-03-12 09:20:53,818 43 API: 'edit_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['D1KaNA9xJSuie7tOkACThQN1pdq0bp0yXsLtVYE5p50yvhlIq6PhnfhTts2cAi9P']), ('userid', ['15']), ('firstname', ['Yogendra']), ('lastname', ['Singhhhhh']), ('gender', ['Other']), ('dob', ['1998-06-26'])])
+2025-03-12 09:20:53,829 60 Updated User 15
+2025-03-12 09:20:53,830 63 Updated User Data: {'_id': ObjectId('67c557a9c6a566cb04e96764'), 'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-12 09:21:36,763 266 /Users/ayushnegi/Desktop/sarathi/user_management/views.py changed, reloading.
+2025-03-12 09:31:57,175 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['1dOzacpbBMbTgrStIGN10yb1QwFOrlrRlEPSiAUJhZH9xBKnOc0p6XFTULh0QeA8']), ('user_id', ['15'])])
+2025-03-12 09:31:57,180 24 User found: {'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-12 09:31:58,826 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['6TbZTo60Z0GtJvgR0zSFjeBaIw6Gu2x4qkci1MByFdcJ0F8L6553pD52MLISTVGl']), ('user_id', ['15'])])
+2025-03-12 09:31:58,829 84 UserId: 15, OTP: 736878
+2025-03-12 09:32:53,842 95 API: 'verify_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['6TbZTo60Z0GtJvgR0zSFjeBaIw6Gu2x4qkci1MByFdcJ0F8L6553pD52MLISTVGl']), ('user_id', ['15']), ('enteredotp', ['736878'])])
+2025-03-12 09:35:27,306 43 API: 'edit_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['6TbZTo60Z0GtJvgR0zSFjeBaIw6Gu2x4qkci1MByFdcJ0F8L6553pD52MLISTVGl']), ('userid', ['15']), ('firstname', ['Yogendra']), ('lastname', ['Singhhhhh']), ('gender', ['Other']), ('dob', ['1998-06-26'])])
+2025-03-12 09:35:27,322 60 Updated User 15
+2025-03-12 09:35:27,324 63 Updated User Data: {'_id': ObjectId('67c557a9c6a566cb04e96764'), 'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-12 09:38:02,164 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['BrmJ8bjMSXevWYo471zjEQm7CirH2fHKVSn2gzOkyaKLd8gYdxMHKfQZGx3Tr8Q1']), ('user_id', ['15'])])
+2025-03-12 09:38:02,167 24 User found: {'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-12 09:38:03,353 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['IQwbUH3gcWbFahEn4mom46TQkxhOqeP92hxu25yOS9HVrrwhaSBKavnIoMT0P7Yq']), ('user_id', ['15'])])
+2025-03-12 09:38:03,357 84 UserId: 15, OTP: 556786
+2025-03-12 09:38:14,291 95 API: 'verify_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['IQwbUH3gcWbFahEn4mom46TQkxhOqeP92hxu25yOS9HVrrwhaSBKavnIoMT0P7Yq']), ('user_id', ['15']), ('enteredotp', ['123456'])])
+2025-03-12 09:39:01,616 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['IQwbUH3gcWbFahEn4mom46TQkxhOqeP92hxu25yOS9HVrrwhaSBKavnIoMT0P7Yq']), ('user_id', ['15'])])
+2025-03-12 09:39:01,618 24 User found: {'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-12 09:39:03,109 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['52VkRMrhI4dxhDiotuKsuXbxXmE42wdGptWDZaWPohJNyNaiz0XQAmFp1BggrpmX']), ('user_id', ['15'])])
+2025-03-12 09:39:03,109 84 UserId: 15, OTP: 417617
+2025-03-12 09:39:16,398 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['PeOXZJg4XoZXnKQzUDYYYv4R7rQ9rO2k9FPg77LCDBvdEUIt09bm4UyJbGslQHbB']), ('user_id', ['15'])])
+2025-03-12 09:39:16,400 24 User found: {'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-12 09:39:22,977 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['hXg2jQM1pyMHoeNMx0RTnVEm8LNpCtMZBohlrehz5LiXFoFGDw4htk8ec0pB1mVg']), ('user_id', ['15'])])
+2025-03-12 09:39:22,977 84 UserId: 15, OTP: 870809
+2025-03-12 09:39:49,725 95 API: 'verify_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['hXg2jQM1pyMHoeNMx0RTnVEm8LNpCtMZBohlrehz5LiXFoFGDw4htk8ec0pB1mVg']), ('user_id', ['15']), ('enteredotp', ['123456'])])
+2025-03-12 09:39:54,560 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['hXg2jQM1pyMHoeNMx0RTnVEm8LNpCtMZBohlrehz5LiXFoFGDw4htk8ec0pB1mVg']), ('user_id', ['15'])])
+2025-03-12 09:39:54,562 84 UserId: 15, OTP: 950864
+2025-03-12 09:40:10,251 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['hXg2jQM1pyMHoeNMx0RTnVEm8LNpCtMZBohlrehz5LiXFoFGDw4htk8ec0pB1mVg']), ('user_id', ['15'])])
+2025-03-12 09:40:10,252 84 UserId: 15, OTP: 302183
+2025-03-12 09:40:32,505 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['zri1DN0xN58xJ9vSwz1nWGXIARuK8bhOTSjkLbv5tiEN0jnMC5eL25rAE66Wx4q5']), ('user_id', ['15'])])
+2025-03-12 09:40:32,507 24 User found: {'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-12 09:40:33,657 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['8ysOLUkCkiSIt87BRstQF2volm6BlEdNsZt7TiPa0voYKiZvXYGeLrZgpBINKxm4']), ('user_id', ['15'])])
+2025-03-12 09:40:33,658 84 UserId: 15, OTP: 682725
+2025-03-12 09:41:39,762 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['9WmMWEFIyg1UKUa0clE0hQtROJT9jNBFtnn542agetxa142UiRRonfXJSYvlIGKW']), ('user_id', ['15'])])
+2025-03-12 09:41:39,764 24 User found: {'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-12 09:41:40,892 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['1rlylFtANQ6JpE34uSIsrvinLUwafEwBlSmRt3Y8t3CZGOVYAoVQxUMfP98mExFS']), ('user_id', ['15'])])
+2025-03-12 09:41:40,893 84 UserId: 15, OTP: 150551
+2025-03-12 09:41:53,446 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['ohGzsJNCuLyaZpTuR0HdkZZ46mPKI29dIIHSA7iaaY4qgzLoXwUBqotWaBrW7Viu']), ('user_id', ['15'])])
+2025-03-12 09:41:53,448 24 User found: {'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-16 17:45:57,056 248 Not Found: /favicon.ico
+2025-03-16 17:46:08,107 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['nvbR2yQT2fSU7b1SrEezTSUOh32Jvoe9HWcaaWlrIsoaolTMxarXZhoGliEVUhnq']), ('user_id', ['14'])])
+2025-03-16 17:46:08,135 26 No user found with ID: 14
+2025-03-16 17:46:15,058 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['uso0OKTdcspw1zNlAil8e2KB0rkVc5nFOTpjW8oLSFVMiJFfGOywkret4GW7BYwW']), ('user_id', ['15'])])
+2025-03-16 17:46:15,060 24 User found: {'user_id': '15', 'dob': '1998-06-26', 'gender': 'Other', 'date_of_birth': '2011-10-11', 'firstname': 'Yogendra', 'lastname': 'Singhhhhh'}
+2025-03-16 17:46:56,855 80 API: 'send_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['na0afqlzcV0DWpmzgp0bmXuPINWXOcUFHB1tnOQ7S8wTdzetmVdzsmYHM2y9d53W']), ('user_id', ['15'])])
+2025-03-16 17:46:56,866 84 UserId: 15, OTP: 838708
+2025-03-16 17:47:25,865 95 API: 'verify_otp' , PostParams:dict_items([('csrfmiddlewaretoken', ['na0afqlzcV0DWpmzgp0bmXuPINWXOcUFHB1tnOQ7S8wTdzetmVdzsmYHM2y9d53W']), ('user_id', ['15']), ('enteredotp', ['838708'])])
+2025-03-16 17:48:16,305 43 API: 'edit_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['na0afqlzcV0DWpmzgp0bmXuPINWXOcUFHB1tnOQ7S8wTdzetmVdzsmYHM2y9d53W']), ('userid', ['15']), ('firstname', ['Nikhil']), ('lastname', ['Kaintura']), ('gender', ['Male']), ('dob', ['2004-01-13'])])
+2025-03-16 17:48:16,373 60 Updated User 15
+2025-03-16 17:48:16,374 63 Updated User Data: {'_id': ObjectId('67c557a9c6a566cb04e96764'), 'user_id': '15', 'dob': '2004-01-13', 'gender': 'Male', 'date_of_birth': '2011-10-11', 'firstname': 'Nikhil', 'lastname': 'Kaintura'}
+2025-03-16 17:49:05,009 18 API: 'search_user' , PostParams:dict_items([('csrfmiddlewaretoken', ['ihJmQDc8HnIz6s3TLlB3ht7GzutWhuKECIKFY1HGnAePnCVNRROrnSByDJ58GnTV']), ('user_id', ['15'])])
+2025-03-16 17:49:05,017 24 User found: {'user_id': '15', 'dob': '2004-01-13', 'gender': 'Male', 'date_of_birth': '2011-10-11', 'firstname': 'Nikhil', 'lastname': 'Kaintura'}
+2025-03-16 17:50:16,434 266 /Users/ayushnegi/Desktop/sarathi/config.py changed, reloading.
+2025-03-16 17:50:24,449 266 /Users/ayushnegi/Desktop/sarathi/config.py changed, reloading.
+2025-03-16 17:50:27,166 266 /Users/ayushnegi/Desktop/sarathi/config.py changed, reloading.
